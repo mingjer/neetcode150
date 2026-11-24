@@ -7,7 +7,7 @@ ans = 1
 n = 2147483645
 ans = 30
 
-# straight forward solution
+# straight forward solution, T = O(logn)
 # res = 0
 
 # while n:
@@ -16,7 +16,7 @@ ans = 30
 
 # print(ans == res)
 
-# bit manipulation solution
+# bit manipulation solution, T = O(k), k = number of 1 bits in n
 res = 0
 
 while n:
